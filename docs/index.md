@@ -1,4 +1,4 @@
-# Welcome to Gigacounts's documentation!
+# Welcome to Gigacounts's documentation
 
 **Gigacounts** is a
 
