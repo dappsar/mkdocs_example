@@ -58,6 +58,17 @@ mkdocs serve
 # Deploy to github pages
 mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch main
 # more info: https://dev.to/ar2pi/publish-your-markdown-docs-on-github-pages-6pe
+
+# show in http server
+mkdocs build
+npm install -g http-server
+http-server ./site
+
+# Deploy to github pages (alternative)
+pip3 install ghp-import
+ghp-import -n site
+git push origin gh-pages --force
+
 ```
 
 Using the example in your own project
