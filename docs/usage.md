@@ -1,9 +1,0 @@
-Guide
-=====
-
-Contracts
-------------
-
-Payments
-------------
-
