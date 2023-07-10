@@ -1,6 +1,7 @@
 site_name: Gigacounts User Guides
 theme:
-  name: readthedocs
+  name: 'readthedocs'
+  custom_dir: 'theme'
   highlightjs: true
 plugins:
   - search
