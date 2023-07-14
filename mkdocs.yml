@@ -2,7 +2,7 @@ site_name: Gigacounts User Guides
 theme:
   name: 'readthedocs'
   nav_style: dark
-  custom_dir: 'theme'
+  #custom_dir: 'theme'
   highlightjs: true
 plugins:
   - search
