@@ -1,18 +1,27 @@
 site_name: Gigacounts User Guides
 theme:
-  name: 'mkdocs'
+  name: 'readthedocs'
   nav_style: dark
-  # custom_dir: 'theme'
+  custom_dir: 'theme'
   highlightjs: true
-  locale: en
 plugins:
   - search
-#  - mkdocstrings:
-#      handlers:
+  - mkdocstrings:
+      handlers:
         # See: https://mkdocstrings.github.io/python/usage/
-#        python:
-#          options:
-#            docstring_style: sphinx
+        python:
+          options:
+            docstring_style: sphinx
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+#      js_files:
+#          - assets/js/main.js
+#      css_files:
+#          - assets/css/style.cs
 markdown_extensions:
   - markdown_include.include:
       base_path: .

@@ -2,3 +2,4 @@ mkdocs
 mkdocstrings[python]
 markdown-include
 mkdocs[i18n]
+mkdocs-minify-plugin
