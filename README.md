@@ -69,6 +69,12 @@ pip3 install ghp-import
 ghp-import -n site
 git push origin gh-pages --force
 
+# Add new dependency
+add dependency in docs/requirements.in
+pip3 install pip-tools
+python3 -m piptools compile docs/requirements.in
+
+
 ```
 
 Using the example in your own project
